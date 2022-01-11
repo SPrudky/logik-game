@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace logik_game
+namespace Logik_IT1B
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,5 +24,16 @@ namespace logik_game
         {
             InitializeComponent();
         }
+
+        private void Ellipse_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Brush seda = (Brush)new BrushConverter().ConvertFrom("#FFD9D9D9");
+            if (Ellipse_0_0.Fill == seda)
+            {
+                Ellipse_0_0.Fill = Brushes.Red;
+            }
+        }
     }
 }
+    
+
