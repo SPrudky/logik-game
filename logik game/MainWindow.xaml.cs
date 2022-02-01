@@ -156,8 +156,9 @@ namespace logikhra
             {
                 barva1 = Brushes.Purple;
             }
-
-            if (cislo == 1)
+            Random random2 = new Random();
+            int cislo2 = random2.Next(1, 7);
+            if (cislo2 == 1)
             {
                 barva2 = Brushes.Red;
             }
@@ -181,8 +182,9 @@ namespace logikhra
             {
                 barva2 = Brushes.Purple;
             }
-
-            if (cislo == 1)
+            Random random3 = new Random();
+            int cislo3 = random3.Next(1, 7);
+            if (cislo3 == 1)
             {
                 barva3 = Brushes.Red;
             }
@@ -206,8 +208,9 @@ namespace logikhra
             {
                 barva3 = Brushes.Purple;
             }
-
-            if (cislo == 1)
+            Random random4 = new Random();
+            int cislo4 = random4.Next(1, 7);
+            if (cislo4 == 1)
             {
                 barva4 = Brushes.Red;
             }
